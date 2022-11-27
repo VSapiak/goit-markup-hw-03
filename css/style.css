@@ -47,7 +47,7 @@ body {
 /*----------------- Navigetion ------------------*/
 
 .header {
-    box-shadow: 0 2px 1px var(--color-many-blue-modal);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .nav-container {
@@ -378,6 +378,7 @@ body {
 
 .item-filter {
     height: 420px;
-    border: 0.5px solid var(--color-cloud);
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     background-color: var(--color-white);
 }
