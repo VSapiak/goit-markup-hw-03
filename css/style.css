@@ -16,6 +16,16 @@ body {
     --color-white: #FFFFFF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 .hide {
     display: none;
 }
@@ -62,8 +72,8 @@ body {
 }
 
 .menu-item {
-    margin-left: 77px;
     display: flex;
+    margin-left: 77px;
 }
 
 .menu-item .menu {
@@ -76,12 +86,12 @@ body {
 
 .menu-item .menu-link {
     display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    color: var(--color-navy-blue);
     font-weight: 500;
     line-height: 1.5;
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: var(--color-navy-blue);
 }
 
 .menu-item .menu-link:hover,
@@ -124,10 +134,10 @@ body {
 
 .title {
     text-align: center;
-    font-weight: 500;
     font-size: 56px;
+    font-weight: 500;
+    margin-bottom: 48px;
     line-height: 1.07;
-    margin-top: 0;
     color: var(--color-white);
 }
 
@@ -136,17 +146,17 @@ body {
 
 .btn {
     display: block;
+    font-weight: 500;
     font-family: inherit;
     cursor: pointer;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
     padding: 16px 32px;
     margin: 0 auto;
     color: var(--color-white);
+    background-color: var(--color-iris);
     border: 1px solid transparent;
     border-radius: 4px;
-    background-color: var(--color-iris);
 }
 
 .btn:hover,
@@ -163,15 +173,15 @@ body {
 
 .button {
     font-family: inherit;
-    cursor: pointer;
-    color: var(--color-iris);
     font-weight: 500;
     font-size: 16px;
+    cursor: pointer;
+    color: var(--color-iris);
+    background: var(--color-cloud);
     padding: 8px 16px;
     border: 1px solid transparent;
     border-radius: 4px;
     line-height: 1.5;
-    background: var(--color-cloud);
     border: 1px solid var(--color-cornflower);
 }
 
@@ -218,7 +228,6 @@ body {
     font-weight: 500;
     font-size: 36px;
     line-height: 1.1;
-    margin: 0;
     margin-bottom: 72px;
     text-transform: capitalize;
 }
@@ -227,7 +236,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    margin: 0;
+    margin-bottom: 8px;
 }
 
 .section--text {
@@ -252,9 +261,9 @@ body {
 
 .user-subtitle {
     font-weight: 500;
-    margin: 0;
     font-size: 20px;
     line-height: 1.2;
+    margin-bottom: 8px;
 }
 
 .list_work {
@@ -268,7 +277,6 @@ body {
 
 .user-text {
     width: 264px;
-    margin: 0;
     line-height: 1.2;
     color: var(--color-slate);
 }
@@ -310,7 +318,6 @@ body {
     width: 265px;
     line-height: 1.5;
     margin-top: 16px;
-    margin-bottom: 0;
     color: var(--color-cornflower);
 }
 
@@ -325,9 +332,9 @@ body {
 .list-filter {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     padding: 0;
     margin: 0;
-    justify-content: space-between;
 }
 
 .list-filter .item-filter+.item-filter:nth-child(-n+6) {
@@ -352,7 +359,6 @@ body {
 .subtitile {
     font-weight: 500;
     font-size: 20px;
-    margin: 0;
     margin-bottom: 8px;
     line-height: 1.2;
     color: var(--color-navy-blue);
@@ -360,7 +366,6 @@ body {
 
 .text {
     font-size: 16px;
-    margin: 0;
     line-height: 1.5;
     color: var(--color-slate);
 }
@@ -369,8 +374,8 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    margin-bottom: 72px;
     justify-content: center;
+    margin-bottom: 72px;
 }
 
 .filter .list+.list {
